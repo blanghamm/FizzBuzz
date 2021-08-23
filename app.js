@@ -10,11 +10,11 @@ const newArr = arr.map((ele) => {
     const fizz = ele % 3 === 0;
     //Checking for multiples of 5
     const buzz = ele % 5 === 0;
-    //Using a ternary operator to evaluate and return either the number of phrase. Could use an if else statement.
+    //Using a ternary operator to evaluate and return either the number or phrase. Could use an if else statement.
     const fizzBuzz = fizz && buzz ? 'FizzBuzz' : ele && fizz ? 'Fizz' : ele && buzz ? 'Buzz' : ele
     return fizzBuzz
 })
-//Using join with a regular expression to console log the correct string
+//Using join with a regular expression to concatenate the array and output a string
 console.log(newArr.join('\r\n'))
 console.timeEnd('exc')
 
