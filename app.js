@@ -1,6 +1,6 @@
 /* Original example. Execution time is 5.7ms. console.time is used to monitor the execution time. */
 console.time('exc')
-//Create array will values 0 to 100
+//Create array with values 0 to 100
 const arr = Array.from(Array(101).keys());
 //Remove first element in the array, starting point is now 1
 arr.shift();
